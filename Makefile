@@ -1,5 +1,5 @@
 PKG_NAME := pypi-setuptools_git_versioning
-URL = https://files.pythonhosted.org/packages/69/92/dc048ec75e81dca38ff013b48cfb4d9fb54810bf5a56abd4e3c8d5574632/setuptools-git-versioning-1.13.1.tar.gz
+URL = https://files.pythonhosted.org/packages/5b/87/de216db8f99e2aac38215c1ef048a2716c805b4a58ce79a66c4a267140f4/setuptools-git-versioning-1.13.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
