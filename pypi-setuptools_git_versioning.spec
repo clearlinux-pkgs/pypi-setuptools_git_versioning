@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-setuptools_git_versioning
-Version  : 1.13.4
-Release  : 5
-URL      : https://files.pythonhosted.org/packages/fb/a9/4f1aacddd97bf62edb99d4dcd438c2e00614b2e9e624690f80c2437f942e/setuptools-git-versioning-1.13.4.tar.gz
-Source0  : https://files.pythonhosted.org/packages/fb/a9/4f1aacddd97bf62edb99d4dcd438c2e00614b2e9e624690f80c2437f942e/setuptools-git-versioning-1.13.4.tar.gz
+Version  : 1.13.5
+Release  : 6
+URL      : https://files.pythonhosted.org/packages/53/88/39c78b47ac8e608b7f60913ff14aa402aa49fae97e86cfb3ea8f374dc53f/setuptools-git-versioning-1.13.5.tar.gz
+Source0  : https://files.pythonhosted.org/packages/53/88/39c78b47ac8e608b7f60913ff14aa402aa49fae97e86cfb3ea8f374dc53f/setuptools-git-versioning-1.13.5.tar.gz
 Summary  : Use git repo data for building a version number according PEP-440
 Group    : Development/Tools
 License  : MIT
@@ -68,10 +68,10 @@ python3 components for the pypi-setuptools_git_versioning package.
 
 
 %prep
-%setup -q -n setuptools-git-versioning-1.13.4
-cd %{_builddir}/setuptools-git-versioning-1.13.4
+%setup -q -n setuptools-git-versioning-1.13.5
+cd %{_builddir}/setuptools-git-versioning-1.13.5
 pushd ..
-cp -a setuptools-git-versioning-1.13.4 buildavx2
+cp -a setuptools-git-versioning-1.13.5 buildavx2
 popd
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1690818348
+export SOURCE_DATE_EPOCH=1691505843
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
