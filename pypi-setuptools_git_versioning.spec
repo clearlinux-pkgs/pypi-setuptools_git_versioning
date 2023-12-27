@@ -5,7 +5,7 @@
 #
 Name     : pypi-setuptools_git_versioning
 Version  : 1.13.5
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/53/88/39c78b47ac8e608b7f60913ff14aa402aa49fae97e86cfb3ea8f374dc53f/setuptools-git-versioning-1.13.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/53/88/39c78b47ac8e608b7f60913ff14aa402aa49fae97e86cfb3ea8f374dc53f/setuptools-git-versioning-1.13.5.tar.gz
 Summary  : Use git repo data for building a version number according PEP-440
